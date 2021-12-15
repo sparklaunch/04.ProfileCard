@@ -2,12 +2,15 @@
     import Banner from "./Banner.svelte";
     import Profile from "./Profile.svelte";
     import Info from "./Info.svelte";
+    import Details from "./Details.svelte";
 </script>
 
 <div id="card">
     <Banner />
     <Profile />
     <Info />
+    <hr />
+    <Details />
 </div>
 
 <style>
@@ -17,5 +20,9 @@
         background-color: white;
         width: 400px;
         overflow: hidden;
+    }
+    hr {
+        border-color: rgb(227, 227, 227);
+        border-style: solid;
     }
 </style>
