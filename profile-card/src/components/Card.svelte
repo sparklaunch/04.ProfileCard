@@ -1,11 +1,13 @@
 <script>
     import Banner from "./Banner.svelte";
     import Profile from "./Profile.svelte";
+    import Info from "./Info.svelte";
 </script>
 
 <div id="card">
     <Banner />
     <Profile />
+    <Info />
 </div>
 
 <style>
