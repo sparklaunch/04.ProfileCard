@@ -1,16 +1,16 @@
-<script>
+<script lang="ts">
     import Card from "./components/Card.svelte";
 </script>
 
 <svelte:head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
         href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
         rel="stylesheet"
     />
 </svelte:head>
-<div id="app">
+<main>
     <div id="background-top">
         <img src="/assets/bg-pattern-top.svg" alt="Top Background Pattern" />
     </div>
@@ -23,10 +23,10 @@
     <div id="wrapper">
         <Card />
     </div>
-</div>
+</main>
 
 <style>
-    #app {
+    main {
         position: fixed;
         background-color: rgb(24, 151, 164);
         height: 100vh;

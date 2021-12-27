@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Banner from "./Banner.svelte";
     import Profile from "./Profile.svelte";
     import Info from "./Info.svelte";
@@ -24,5 +24,10 @@
     hr {
         border-color: rgb(227, 227, 227);
         border-style: solid;
+    }
+    @media all and (max-width: 1440px) {
+        #card {
+            width: 90%;
+        }
     }
 </style>
